@@ -9,19 +9,19 @@ public class Member {
 	public Member (){}
 	
 	public String getName() {
-		return "";
+		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
 	public int getPoint() {
-		return 0;
+		return point;
 	}
 	public void setPoint(int point) {
 		this.point=point;
 	}
 	public String getId() {
-		return "";
+		return id;
 	}
 	public void setId(String id) {
 		this.id = id;
