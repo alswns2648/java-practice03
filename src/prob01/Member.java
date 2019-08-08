@@ -6,27 +6,24 @@ public class Member {
 	private String name;
 	private int point;
 	
+	public Member (){}
+	
+	public String getName() {
+		return "";
+	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	public String getName() {
-		return name;
-	}
-		
-	public void setPoint(int point) {
-		this.point = point;
-	}
-	
 	public int getPoint() {
-		return point;
+		return 0;
 	}
-	
+	public void setPoint(int point) {
+		this.point=point;
+	}
+	public String getId() {
+		return "";
+	}
 	public void setId(String id) {
 		this.id = id;
 	}
-	
-	public String getId() {
-		return id;
-	}	
 }
